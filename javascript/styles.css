@@ -1,0 +1,60 @@
+body {
+    background-color: #212529;
+    color: white;
+    font-family: sans-serif;
+}
+
+.appTitle {
+    text-align: center;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.newArrayButton {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    border-radius: 5%;
+    border-color: white;
+}
+
+.range {
+    margin-top: -5px;
+}
+ 
+.sortButton {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 5%;
+}
+
+.bars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+}
+
+.barItem{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
